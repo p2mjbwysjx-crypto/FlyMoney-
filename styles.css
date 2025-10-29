@@ -1,0 +1,92 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box‑sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  background: #000;
+}
+
+.logo {
+  max-width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+.hero {
+  text-align: center;
+  padding: 4em 1em;
+}
+.hero h1 {
+  font-size: 2.5em;
+  margin: 0.5em 0;
+  color: #f1c40f;
+}
+.btn {
+  display: inline-block;
+  padding: 0.8em 2em;
+  background: #f1c40f;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.collection {
+  padding: 4em 1em;
+  text-align: center;
+}
+.collection h2 {
+  color: #f1c40f;
+  margin-bottom: 1em;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2em;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+.card h3 {
+  margin: 0.5em 0;
+  color: #f1c40f;
+}
+.card p {
+  font-size: 1.1em;
+}
+
+.about, .contact {
+  padding: 4em 1em;
+  background: #111;
+}
+.about h2, .contact h2 {
+  color: #f1c40f;
+  margin-bottom: 1em;
+}
+.about p, .contact p {
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.socials {
+  margin-top: 1em;
+}
+.socials a {
+  margin: 0 .5em;
+  color: #f1c40f;
+  text-decoration: none;
+}
+
+.footer {
+  text-align: center;
+  padding: 2em 1em;
+  background: #111;
+  font-size: 0.9em;
+}
